@@ -195,10 +195,19 @@ Nel caso sia necessario utilizzare funzioni anonime (ad esempio in caso di callb
 [Qui](http://es6-features.org/#Constants) è possibile vedere un recap di tutti gli improvements di ECMAScript 6+.
 
 ## IDE
-coming soon
+In seguito all'utilizzo di vari IDE abbiamo attualmente selezionato come il più idoneo **[Visual Studio Code](https://code.visualstudio.com/)** perché rapido, completo e meno pesante in termini di risorse rispetto ad altri IDE come ad esempio *Atom*.
 
 ## Tecnologie utilizzate
-coming soon
+In un progetto *React Native* normalmente utilizziamo le seguenti tecnologie di supporto:
+
+Tecnologia | Ruolo | Note
+--- | --- | ---
+**NPM** o **Yarn** | Dependency manager di *Node* | Si può utilizzare uno o l'altro a seconda delle preferenze, ma è consigliato sceglierne uno e usare solo quello in modo da generare un solo file di lock.<br>In genere *yarn* è un po' più rapido di *npm* nel download delle dipendenze.
+**Flow** | Static type checker | Permette di introdurre un minimo di *type-safety* in *JavaScript* tramite analisi statica del codice.<br>*Visual Studio Code* visualizza comodamente **direttamente nell'editor** eventuali avvisi/errori da parte di *flow* eseguendolo automaticamente in background in seguito alla modifica di ogni file.
+**Moment** | Gestore date e orari | Libreria JS per parsing, validazione, manipolazione e visualizzazione di date e orari.
+**[React Native](#react-native)** | Framework Mobile | Framework crossplatform con output mobile nativo basatao su [React JS](https://reactjs.org/).
+**[Redux](#redux)** | State container | Libreria JS che agevola l'applicazione di un pattern di sviluppo che permette di realizzare codice più testabile e consistente su diverse piattaforme.
+**[Immutable](#immutable)** | Dati immutabili | Libreria JS che permette di generare collezioni di dati immutabili.<br>Particolarmente utile in combinazione con lo *state* di React perché permette di evitare inutili refresh di componenti quando non necessario.
 
 ## Struttura del progetto
 coming soon
@@ -209,7 +218,7 @@ coming soon
 ## Redux
 coming soon
 
-## ImmutableJS
+## Immutable
 coming soon
 
 ## Navigation
